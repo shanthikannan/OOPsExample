@@ -10,20 +10,20 @@ namespace InheritanceShape
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("----------SHAPE OBJECT CREATION-----------");
-            Shape shape = new Shape();
-            Console.WriteLine();
-            Console.WriteLine();
+            //Console.WriteLine("----------SHAPE OBJECT CREATION-----------");
+            //Shape shape = new Shape();
+            //Console.WriteLine();
+            //Console.WriteLine();
 
             Console.WriteLine("----------SQUARE OBJECT CREATION-----------");
             Square square = new Square();
             Console.WriteLine();
             Console.WriteLine();
 
-            Console.WriteLine("----------SHAPE FINDAREA CALL-----------");
-            shape.FindArea();
-            Console.WriteLine();
-            Console.WriteLine();
+            //Console.WriteLine("----------SHAPE FINDAREA CALL-----------");
+            //shape.FindArea();
+            //Console.WriteLine();
+            //Console.WriteLine();
 
             Console.WriteLine("----------SQUARE FINDAREA CALL-----------");
             square.FindArea();
@@ -32,6 +32,12 @@ namespace InheritanceShape
 
             Console.WriteLine("----------SQUARE FINDSQUAREAREA CALL-----------");
             square.FindSquareArea();
+            Console.WriteLine();
+            Console.WriteLine();
+
+
+            Console.WriteLine("----------SQUARE FINDPERIMETER CALL-----------");
+            square.FindPerimeter();
             Console.WriteLine();
             Console.WriteLine();
         }

@@ -13,9 +13,15 @@ namespace InheritanceShape
             Console.WriteLine("Square Constructor Called");
         }
 
+        public override int FindPerimeter()
+        {
+            Console.WriteLine("Square FindPerimeter Called");
+            return 10;
+        }
+
         public int FindSquareArea()
         {
-            Console.WriteLine("Square FindArea1 Called");
+            Console.WriteLine("Square FindSquareArea Called");
             return 0;
         }
     }

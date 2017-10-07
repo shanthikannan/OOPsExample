@@ -6,12 +6,14 @@ using System.Threading.Tasks;
 
 namespace InheritanceShape
 {
-    class Shape
+    abstract class Shape
     {
         public Shape()
         {
             Console.WriteLine("Shape Constructor Called");
         }
+
+        public abstract int FindPerimeter();
 
         public virtual int FindArea()
         {
