@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace InheritanceShape
 {
-    abstract class Shape
+    public abstract class Shape
     {
         public Shape()
         {
@@ -19,6 +19,8 @@ namespace InheritanceShape
         {
             Console.WriteLine("Shape FindArea Called");
             return 0;
-        }        
+        }   
+        
+      
     }
 }
